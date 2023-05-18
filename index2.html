@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		body
+			{
+	 background-image:url('aa292c3ff3b186e9389bbee3a2d0d591.gif'); background-repeat:no-repeat;
+	 background-size: 1500px;
+		}
+	
+	</style>
+	<title>SKAD Chatbot</title>
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+	<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+
+	<div>
+		<button class="banner"><b> <u> SKAD CHATBOT</u></b></button>
+	</div>
+	
+	<div id="container" class="container">
+				<ul class="filters__content">
+                    <!-- <button class="filterstudent" data-target="#studentskills">
+                        SRM Student
+                    </button>
+                    <button class="filterparent" data-target="#parentskills">
+                        Parents
+                    </button>
+					<button class="filterfaculty" data-target="#facultyskills">
+                        Faculty
+                    </button>
+					<button class="filteremergency" data-target="#emergencyskills">
+                        Emergency
+                    </button> -->
+					<!-- <button class="filterenquiry" data-target="#enquiryskills">
+                        Enquiry
+                    </button> -->
+        		</ul>
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+
+		</div>
+
+		
+		<img src="chatbot-marketing.gif" alt="Robot cartoon" height="300vh">
+	</div>
+		<!-- CHAT BAR BLOCK -->
+	
+			<div class="content">
+				<div class="full-chat-block">
+					<!-- Message Container -->
+					<div class="outer-container">
+						<div class="chat-container">
+							<!-- Messages -->
+							<div id="chatbox">
+								<h5 id="chat-timestamp"></h5>
+								<p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+							</div>
+	
+							<!-- User input box -->
+
+								<div class="chat-bar-icons">
+									<i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+										onclick="heartButton()"></i>
+									<i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+										onclick="sendButton()"></i>
+										<i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-voice" onclick="voice()"></i>
+								</div>
+							</div>
+	
+							<div id="chat-bar-bottom">
+								<p></p>
+							</div>
+	
+						</div>
+					</div>
+	
+				</div>
+			</div>
+	
+		</div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+
+</html>
